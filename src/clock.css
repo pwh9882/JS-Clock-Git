@@ -1,0 +1,11 @@
+.js-clock {
+  padding: 0.000001% auto;
+  font-size: 400%;
+  /* border: 1px solid black; */
+}
+.js-title {
+  text-shadow: 0px 0px 15px black;
+  margin: auto;
+  margin-top: 10%;
+  font-weight: 400;
+}

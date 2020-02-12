@@ -1,0 +1,76 @@
+.js-form {
+  padding: 100% auto;
+
+  border: 0px solid black;
+  margin: 10px;
+  font-weight: 400;
+
+  /* border: 1px solid black; */
+}
+.js-toDoForm .js-toDoForm-title {
+  width: 100%;
+  font-size: 400%;
+  text-align: center;
+  font-weight: 400;
+}
+
+.js-toDoForm input {
+  width: 100%;
+  background: none;
+  padding: 5px;
+  border: 0px;
+  font-size: 300%;
+  color: white;
+  align-content: center;
+  border-radius: 20px;
+  text-align: center;
+  border-bottom: 3px solid white;
+  text-shadow: 0px 0px 15px black;
+
+  margin: 0 auto;
+}
+
+.js-toDoList {
+  list-style: none;
+  font-size: 200%;
+  overflow: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes appearToDo {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.js-toDoList li {
+  display: flex;
+  align-items: center;
+  animation: appearToDo 1s;
+}
+
+.js-toDoList li span {
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+
+.js-toDoList li button {
+  padding: 7px 9px;
+  border-radius: 50%;
+  color: aliceblue;
+  border: none;
+  background: none;
+  box-shadow: none;
+}
+.js-toDoList li button:hover {
+  background: gray;
+  cursor: pointer;
+  opacity: 0.7;
+}

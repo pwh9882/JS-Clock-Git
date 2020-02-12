@@ -1,7 +1,7 @@
 .greetings {
-  font-size: 400%;
+  font-size: 500%;
   font-weight: 400;
-  margin: auto;
+  /* margin: auto; */
   margin-bottom: 1%;
 }
 .showing {
